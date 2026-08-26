@@ -1,19 +1,19 @@
 # The Prototype Bet
 
 ## What I Built
-<!-- One sentence: what does this prototype demonstrate? -->
+One click research across internal and external data gravities for a new onboarding factory. 
 
 ## Tool Used
-<!-- v0 / Cursor / Lovable / other -->
+Lovable
 
 ## Prototype Link
-<!-- Paste the shareable URL -->
+https://factory-insight-oracle.lovable.app/
 
 ## AI Value Archetype
-<!-- Automator / Copilot / Oracle / Creator / Orchestrator -->
+Oracle
 
 ## The Bet in One Sentence
-<!-- What you're building, for whom, why now -->
+Reduce the research and organizing time from a week to a click. 
 
 ## Kill Criteria
-<!-- When would you stop? What evidence would kill this bet? -->
+When there is an existing product providing the same feature and lower cost of maintenance including subscription fees across different external platforms. 
