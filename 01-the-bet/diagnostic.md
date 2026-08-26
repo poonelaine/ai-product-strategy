@@ -3,14 +3,15 @@
 ## Product
 <!-- Name the product you're diagnosing. Real product at your company — not a hypothetical. -->
 
-**Product:**
-**Your Role:**
+**Product:** Factory Risk Intelligence
+
+**Your Role:** Sr. Product Manager
 
 ---
 
 ## Scores
 
-### Contextual Moat — __/5
+### Contextual Moat — 4/5
 *Workflow depth × switching cost. Would users leave in a weekend if a competitor showed up?*
 
 **Score rationale:**
@@ -21,7 +22,7 @@ Research results are structured into company policy, risk level is compared acro
 
 ---
 
-### Data Advantage — __/5
+### Data Advantage — 5/5
 *Proprietary signal that compounds with usage. What do you see that OpenAI doesn't?*
 
 **Score rationale:**
@@ -33,7 +34,7 @@ External market signals include sentinel unstructured data
 
 ---
 
-### Platform Exposure — __/5
+### Platform Exposure — 1/5
 *Encroachment risk × pivot speed. If Apple/Google/OpenAI ships your hero feature native — then what?*
 
 **Score rationale:**
@@ -46,7 +47,24 @@ External market signals are only available with company subscriptions.
 ---
 
 ## Top Vulnerability
-<!-- One line: what's the single biggest strategic risk? -->
+# Vulnerability Scorecard, Module 1
+
+## Three-axis scores (1-5)
+- **Contextual Moat:** 4
+- **Data Advantage:** 5
+- **Platform Exposure:** 1 *(1 = very exposed, 5 = well protected)*
+
+## Composite
+- **Sum:** 10 / 15
+- **Band:** Moderate, Some protection, but cracks exist.
+- **Your crack (lowest axis):** Platform Exposure
+
+## Competitor pressure
+- *(not filled in)*
+
+---
+*Carries forward to M2 (Flywheel Scorer).*
+
 
 ## Confidence Level
-<!-- H / M / L — how confident are you in this bet after the diagnostic? -->
+M
