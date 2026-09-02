@@ -23,9 +23,9 @@
 ## Features -> Tiers -> blended COGS
 | Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted | Why the feature? |
 |----------|---------|--------|----------|---------|--------|--------|
-| Researching across 10+ internal and external data for a factory  | Simple | Small |----------|---------|--------|--------|
-| Mapping the research results into company policy categories | Medium | Mid |----------|---------|--------|--------|
-| Rating a Risk Score and recommend action to onboard | Complex | Frontier | ----------|---------|--------|--------|
+| Researching across 10+ internal and external data for a factory  | Simple | Small | $0.15 | 85% |--------|--------|
+| Mapping the research results into company policy categories | Medium | Mid | $0.02 | 10% |--------|--------|
+| Rating a Risk Score and recommend action to onboard | Complex | Frontier | $0.04 | 5% |--------|--------|
 ##
 
 # Cost Curve & Pricing Strategy
