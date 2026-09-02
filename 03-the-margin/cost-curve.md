@@ -16,8 +16,17 @@
 |----------|---------|--------|
 | 3x Cost  | $2.40 | -4.0% ($-0.40) |
 | 2x Usage | $1.60 | 4.0% ($0.40) |
+##
 
+# Build Your Cost Curve
 
+## Features -> Tiers -> blended COGS
+| Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted | Why the feature? |
+|----------|---------|--------|----------|---------|--------|--------|
+| Researching across 10+ internal and external data for a factory  | Simple | Small |----------|---------|--------|--------|
+| Mapping the research results into company policy categories | Medium | Mid |----------|---------|--------|--------|
+| Rating a Risk Score and recommend action to onboard | Complex | Frontier | ----------|---------|--------|--------|
+##
 
 # Cost Curve & Pricing Strategy
 
