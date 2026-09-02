@@ -28,6 +28,21 @@
 | Rating a Risk Score and recommend action to onboard | Complex | Frontier | $0.04 | 5% |--------|--------|
 ##
 
+## Pricing Strategy Block, Module 3
+
+# Pricing Strategy
+- Strategy posture: Skim
+- Pricing model: Outcome / Resolution
+- Unit of work metered: Research completed for a factory and recommend risk score
+- Base fee ($/month): 10
+- Price per unit: $0
+- Estimated units/user/month: 20
+- Implied revenue/user/month: $10.00
+
+# Decision Note
+Why this pricing structure fits the buyer and the value delivered: ·
+##
+
 # Cost Curve & Pricing Strategy
 
 ## Cost Model
