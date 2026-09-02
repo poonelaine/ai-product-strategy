@@ -29,9 +29,9 @@
 | Blended | | | | 100% | $0.01675 | |
 ##
 
-## Pricing Strategy Block, Module 3
+# Pricing Strategy Block, Module 3
 
-# Pricing Strategy
+## Pricing Strategy
 - Strategy posture: Skim
 - Pricing model: Outcome / Resolution
 - Unit of work metered: Research completed for a factory and recommend risk score
@@ -40,7 +40,7 @@
 - Estimated units/user/month: 20
 - Implied revenue/user/month: $10.00
 
-# Decision Note
+## Decision Note
 Why this pricing structure fits the buyer and the value delivered: ·
 ##
 
