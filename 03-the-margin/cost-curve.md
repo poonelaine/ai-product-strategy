@@ -82,9 +82,18 @@ Why this pricing structure fits the buyer and the value delivered: ·
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
-**Before (traditional SaaS):**
-**After (AI-enabled):**
-**Net margin shift:**
+**Before (traditional SaaS):** 
+- Revenue : $10 base / 12 months = $0.833
+- COGS: $8 / 12 months = $0.66
+- Gross Margin = 20.8% (+ $0.173)
+- 
+**After (AI-enabled):** 
+- Revenue : $10 base + $0 x Outcome = $10
+- COGS: $0.01675 x 20 times x 20 Users = $6.7
+- Gross Margin = 33% (+ $3.3)
 
+**Net margin shift:** 
+- Margin %: +12.2%
+- Gross $: + $3.28
 
 
