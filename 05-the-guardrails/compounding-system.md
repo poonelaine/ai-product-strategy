@@ -25,13 +25,28 @@
 <!-- Governance Policy, Factory Risk Intelligence v 1.0 -->
 
 
-**Scope:** AI features in the Factory Risk Intelligence, automated research, mapping into categories, and risk level scoring. Excludes: Onboarding workflow and features which are covered by another internal manufacturing visibility system.
+**Scope:** AI features in the Factory Risk Intelligence, automated research, mapping into categories, and risk level scoring. 
+- Excludes: Onboarding workflow and features which are covered by another internal manufacturing visibility system.
 
-**Autonomy boundaries:** Researching from external data sources, auto. Researching from internal factory audit history, auto. Categorizing evidence according to company policy, auto. Rating a risk score according to the evidence, auto. Suggest the action to Approve or Decline the factory to onboard, human approval required. Feed the final decision into onboarding process system, never auto.
+**Autonomy boundaries:** 
+- Researching from external data sources, auto.
+- Researching from internal factory audit history, auto.
+- Categorizing evidence according to company policy, auto.
+- Rating a risk score according to the evidence, auto.
+- Suggesting the action to Approve or Decline the factory to onboard, human approval required.
+- Feedinhg the final decision into onboarding process system, never auto.
 
-**Escalation triggers:** (1) Confidence < 90% on response. (2) User flagged thumbs down (3) User edit the mapping more than one evidence per policy category (4) User edit the action item from Approve to Decline (5) More than three searches for the same factory and vendor information
+**Escalation triggers:** 
+- (1) Confidence < 90% on response.
+- (2) User flagged thumbs down
+- (3) User edit the mapping more than one evidence per policy category
+- (4) User edit the action item from Approve to Decline
+- (5) More than three searches for the same factory and vendor information
 
-**Audit cadence:** Weekly, PM reviews the "Edit Category" details and identify if too many human edit is needed and not justifying the ROI (Product Manager). Monthly, PE reviews summary of "Edit Category" + "Thumbs Down" and advise any recursive learning to the model, or human-in-loop action is required (Product Engineer). Quarterly, Business stakeholder reviews the usage and summary of decision suggested and action approved by human, to sign-off ROI actualized (Managing Director and DIrector).
+**Audit cadence:** 
+- Weekly, PM reviews the "Edit Category" details and identify if too many human edit is needed and not justifying the ROI (Product Manager).
+- Monthly, PE reviews summary of "Edit Category" + "Thumbs Down" and advise any recursive learning to the model, or human-in-loop action is required (Product Engineer).
+- Quarterly, Business stakeholder reviews the usage and summary of decision suggested and action approved by human, to sign-off ROI actualized (Managing Director and DIrector).
 
 **Regulatory exposure (EU AI Act / other):** EU AI Act, GDPR, SOC 2. Risk tier: high. Controls: Data minimization in prompts · No training on customer PII · SOC 2 log retention controls in place · DPIA on file..
 
