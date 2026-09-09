@@ -56,16 +56,45 @@
 _Not shipping agents this version._
 
 
+# Shadow AI Audit (user-side), Module 5
 
+## Discover, User-Side Workarounds
+- Export summary report of researches done in certain period | source: Support ticket | signal: Workflow gap | freq: L | spend: $20/mo | decision: Build
+- Pipe API output to onboarding system to skip human approval | source: User interview | signal: Capability gap | freq: L | spend: $20/mo | decision: Partner
+- Users expect researches for factory in non-English country | source: User interview | signal: Capability gap | freq: L | spend: $20/mo | decision: Partner
+- Users run the agent to probe other risk domains to assess onboarding | source: Support ticket | signal: Pricing gap | freq: H | spend: $20/mo | decision: Ignore
+- Users run on off-the-shelf agent to compare the research result of our agent | source: Other | signal: Trust gap | freq: M | spend: $0/mo | decision: TBD
 
-## Shadow AI Audit
+## Pattern Assessment
+- Workarounds found: 5
+- Build candidates: 1
+- Partner candidates: 2
+- Ignore decisions: 1
+- Adjacent spend: $80/mo
+- Dominant signal: Capability gap
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+## Action Plan
+### Build
+(1) Build Summary report - provide CSV export to support audit cadence,turn ad-hoc ask into one of the agent's business value in operation workflow and justifying ROI
+CS onboarding domain enrichment (high freq, internal workflow)
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+### Partner
+(2) Partner with manufacturing visibility system product team to enable API integration - build new capability to automate final human approved decision into the existing onboarding processes.
+
+(3) Partner with Business stakeholder in global offices - increase research coverage from localized sources, build Translation capability into English.
+
+### Ignore + Monitor
+(4) Ignore Users running our agent for out of scope Domain - not in our current product vision, strategy and roadmap. Monitor if any increasing sentiment and pitch to relative Business leader to absorb strategically.
+
+(5) TBD discovery work to identify capability and confidence gap between the off-the-shelf tool and our agent.
+
+## Roadmap Brief
+Based on your audit: 5 user-side workarounds discovered.
+Decisions: 1 build · 2 partner · 1 ignore · 1 TBD.
+Estimated adjacent spend: $80/mo across surveyed users.
+Dominant signal: Capability gap.
+
+Recommended next step: Capability gaps dominate, users want something your product does not do. Strongest near-term move is building one or two of these natively before a competitor does.
+
+Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter, workarounds shift fast.
+
