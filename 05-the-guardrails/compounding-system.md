@@ -9,6 +9,7 @@
 | Network Intelligence | The factory audit history if it is an existing factory to other vendor | Factory audit status from other vendor | N | missing |
 
 **Broken loop identified by partner:** Recursive learning
+
 **Fix plan:** Add an edit function, to allow mapping of the evidence into other Policy Category
 
 ## Context Connectivity
@@ -37,11 +38,16 @@
 - Feedinhg the final decision into onboarding process system, never auto.
 
 **Escalation triggers:** 
-- (1) Confidence < 90% on response.
-- (2) User flagged thumbs down
-- (3) User edit the mapping more than one evidence per policy category
-- (4) User edit the action item from Approve to Decline
-- (5) More than three searches for the same factory and vendor information
+
+(1) Confidence < 90% on response.
+
+(2) User flagged thumbs down
+
+(3) User edit the mapping more than one evidence per policy category
+
+(4) User edit the action item from Approve to Decline
+
+(5) More than three searches for the same factory and vendor information
 
 **Audit cadence:** 
 - Weekly, PM reviews the "Edit Category" details and identify if too many human edit is needed and not justifying the ROI (Product Manager).
@@ -59,11 +65,14 @@ _Not shipping agents this version._
 # Shadow AI Audit (user-side), Module 5
 
 ## Discover, User-Side Workarounds
-- Export summary report of researches done in certain period | source: Support ticket | signal: Workflow gap | freq: L | spend: $20/mo | decision: Build
-- Pipe API output to onboarding system to skip human approval | source: User interview | signal: Capability gap | freq: L | spend: $20/mo | decision: Partner
-- Users expect researches for factory in non-English country | source: User interview | signal: Capability gap | freq: L | spend: $20/mo | decision: Partner
-- Users run the agent to probe other risk domains to assess onboarding | source: Support ticket | signal: Pricing gap | freq: H | spend: $20/mo | decision: Ignore
-- Users run on off-the-shelf agent to compare the research result of our agent | source: Other | signal: Trust gap | freq: M | spend: $0/mo | decision: TBD
+
+| Workaround | Signal Source | Signal Type| Freq | Spend: $/mo | Decision |
+|------|-------|--------|-----------|--------|--------|
+| Export summary report of researches done in certain period | source: Support ticket | signal: Workflow gap | freq: L | spend: $20/mo | decision: Build |
+| Pipe API output to onboarding system to skip human approval | source: User interview | signal: Capability gap | freq: L | spend: $20/mo | decision: Partner |
+| Users expect researches for factory in non-English country | source: User interview | signal: Capability gap | freq: L | spend: $20/mo | decision: Partner |
+| Users run the agent to probe other risk domains to assess onboarding | source: Support ticket | signal: Pricing gap | freq: H | spend: $20/mo | decision: Ignore |
+| Users run on off-the-shelf agent to compare the research result of our agent | source: Other | signal: Trust gap | freq: M | spend: $0/mo | decision: TBD |
 
 ## Pattern Assessment
 - Workarounds found: 5
@@ -90,8 +99,11 @@ CS onboarding domain enrichment (high freq, internal workflow)
 
 ## Roadmap Brief
 Based on your audit: 5 user-side workarounds discovered.
+
 Decisions: 1 build · 2 partner · 1 ignore · 1 TBD.
+
 Estimated adjacent spend: $80/mo across surveyed users.
+
 Dominant signal: Capability gap.
 
 Recommended next step: Capability gaps dominate, users want something your product does not do. Strongest near-term move is building one or two of these natively before a competitor does.
