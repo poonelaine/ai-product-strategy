@@ -1,6 +1,6 @@
-# My AI Product Strategy
+# Factory Risk Intelligence
 
-> A living strategy built across 6 sessions. Each module adds one component. By Module 6, this repo IS your strategy — version-controlled, board-ready, portable.
+> Reduce the research and organizing time from a week to a click.
 
 ---
 
@@ -8,12 +8,12 @@
 
 | Component | Module | Status | Key Artifact |
 |-----------|--------|--------|-------------|
-| **The Bet** | M1 | [ ] | `01-the-bet/` |
-| **The Moat** | M2 | [ ] | `02-the-moat/` |
-| **The Margin** | M3 | [ ] | `03-the-margin/` |
-| **The Contract** | M4 | [ ] | `04-the-contract/` |
-| **The Guardrails** | M5 | [ ] | `05-the-guardrails/` |
-| **The Pitch** | M6 | [ ] | `06-the-pitch/` |
+| **The Bet** | M1 | [x] | `01-the-bet/` |
+| **The Moat** | M2 | [x] | `02-the-moat/` |
+| **The Margin** | M3 | [x] | `03-the-margin/` |
+| **The Contract** | M4 | [x] | `04-the-contract/` |
+| **The Guardrails** | M5 | [x] | `05-the-guardrails/` |
+| **The Pitch** | M6 | [x] | `06-the-pitch/` |
 
 ---
 
@@ -21,13 +21,13 @@
 
 **What we're building, for whom, why now.**
 
-- **Product:**
-- **AI Value Archetype:**
-- **Vulnerability Scores:** Moat __/5 · Data __/5 · Platform __/5
-- **Top Risk:**
-- **Confidence:** H / M / L
-- **Prototype:** [link]
-- **Kill Criteria:**
+- **Product:** Factory Risk Intelligence
+- **AI Value Archetype:** Oracle
+- **Vulnerability Scores:** _(add: Moat _/5 · Data _/5 · Platform _/5)_
+- **Top Risk:** # Vulnerability Scorecard, Module 1
+- **Confidence:** M
+- **Prototype:** https://factory-insight-oracle.lovable.app/
+- **Kill Criteria:** When there is an existing product providing the same feature and lower cost of maintenance including subscription fees across different external platforms.
 
 → Details: [`01-the-bet/`](01-the-bet/)
 
@@ -37,11 +37,11 @@
 
 **Why this won't get copied in 6 months.**
 
-- **Data Flywheel Score:** __/20
-- **Weakest Loop:**
-- **Competitive Position:** [describe axes + placement]
-- **Encroachment Defense:**
-- **Vendor Portability:** Ready / Partial / Locked
+- **Data Flywheel Score:**
+- **Weakest Loop:** **Fix for weakest loop:**
+- **Top Encroachment Threat:** Inspectorio
+- **Encroachment Defense:** ### Data Flywheel Scorer, Module 2
+- **Vendor Portability:** _(add: Ready / Partial / Locked)_
 
 → Details: [`02-the-moat/`](02-the-moat/)
 
@@ -53,8 +53,11 @@
 
 - **Gross Margin (current):**
 - **Gross Margin (AI-adjusted):**
-- **Pricing Model:**
-- **Cascading Strategy:**
+- **Pricing Model:** seat-based / usage-based / outcome-based / hybrid
+- **Pricing Today → Tomorrow:** **Proposed AI pricing:** → **Model:** seat-based / usage-based / outcome-based / hybrid
+- **Total AI COGS / unit:**
+- **Cascading Strategy:** Triage: **Frontier model:**; frontier: **Routing rule:**; ratio ## Pricing Model
+- **Net Margin Shift:** - Margin %: +12.2%
 - **Break-even at:**
 
 → Details: [`03-the-margin/`](03-the-margin/)
@@ -66,10 +69,10 @@
 **Why users will trust a probabilistic system.**
 
 - **Reliability Target:**
-- **Golden Dataset:** __ rows, __ adversarial
-- **Confidence UX:** [approach]
+- **Golden Dataset:** 5 rows, __ adversarial
+- **Confidence UX:** show uncertainty / tiered confidence / human-in-loop trigger
 - **HITL Architecture:**
-- **Failure Mode Coverage:**
+- **Failure Mode Coverage:** *What failure mode did your partner find that you missed?*
 
 → Details: [`04-the-contract/`](04-the-contract/)
 
@@ -77,13 +80,16 @@
 
 ## The Guardrails (M5)
 
-**What breaks when this scales — and what compounds.**
+**What breaks when this scales, and what compounds.**
 
-- **Compounding System:** [describe feedback loops]
-- **Governance Posture:** [approach]
-- **Shadow AI Status:** __ tools found, __ triaged
-- **Agent Boundaries:**
-- **Regulatory Exposure:**
+- **Compounding System:** | Loop | Input | Output | Compounds? | Status | |------|-------|--------|-----------|--------| | Recursive Learning | The factory information from user | The factory research from internal and external data sources | Y |…
+- **Governance Posture:** AI features in the Factory Risk Intelligence, automated research, mapping into categories, and risk level scoring.
+- **Autonomy Boundaries:** - Researching from external data sources, auto.
+- **Escalation Triggers:** (1) Confidence < 90% on response.
+- **Audit Cadence:** - Weekly, PM reviews the "Edit Category" details and identify if too many human edit is needed and not justifying the ROI (Product Manager).
+- **Shadow AI Audit (user-side):**
+- **Agent Boundaries:** _Not shipping agents this version._
+- **Regulatory Exposure:** EU AI Act, GDPR, SOC 2. Risk tier: high. Controls: Data minimization in prompts · No training on customer PII · SOC 2 log retention controls in place · DPIA on file..
 
 → Details: [`05-the-guardrails/`](05-the-guardrails/)
 
@@ -96,7 +102,8 @@
 - **Horizon 1 (Now):**
 - **Horizon 2 (Next):**
 - **Horizon 3 (Bet):**
-- **Board Narrative:** [1-sentence thesis]
-- **Key Metric:**
+- **Board Narrative:** **The case:**
+- **Ask:** ## M1 Baseline vs. Now
+- **Key Strategic Change:**
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
