@@ -1,141 +1,72 @@
-## The prompt
+### Bet Validation, Score: 2/5
 
-You are an experienced AI product strategist and board advisor. Evaluate the following AI product strategy using the evaluation dimensions specified below.
-
-Be direct, specific, and constructively critical. For each dimension:
-- Score 1-5 (1 = critical gap, 5 = strong)
-- State what's working
-- State what's weak or missing
-- Give one specific recommendation
-
-At the end, provide:
-- An overall strategy strength score (1-5)
-- The single biggest risk
-- The three most important actions to take next
+* **Strengths:** Explicit recognition of the AI archetype ("Oracle") and a live prototype URL, showing early effort toward tangible execution.
+* **Gaps:** The bet is heavily reliant on internal conviction rather than validated user evidence, interviews, or market telemetry. The stated kill criterion ("when an existing product provides the same feature at lower cost across external platforms") is defensive, reactive, and practically unmeasurable until after market failure occurs rather than serving as an operational exit trigger.
+* **Recommendation:** Establish a time-bound, falsifiable hypothesis based on user workflow velocity (e.g., *"10 factory risk managers actively run and act on 80%+ of risk intelligence reports within 14 days without human intervention"*). Replace the cost-based kill criterion with an engagement drop-off threshold.
 
 ---
 
-## STRATEGY INPUTS
+### Capability Assessment, Score: 2/5
 
-### THE BET (What we're building)
-**What we're building, for whom, why now.**
-
-- **Product:** Factory Risk Intelligence
-- **AI Value Archetype:** Oracle
-- **Vulnerability Scores:** _(add: Moat _/5 · Data _/5 · Platform _/5)_
-- **Top Risk:** # Vulnerability Scorecard, Module 1
-- **Confidence:** M
-- **Prototype:** https://factory-insight-oracle.lovable.app/
-- **Kill Criteria:** When there is an existing product providing the same feature and lower cost of maintenance including subscription fees across different external platforms.
-
-### THE MOAT (Defensibility)
-**Why this won't get copied in 6 months.**
-
-- **Data Flywheel Score:**
-- **Weakest Loop:** **Fix for weakest loop:**
-- **Top Encroachment Threat:** Inspectorio
-- **Encroachment Defense:** ### Data Flywheel Scorer, Module 2
-- **Vendor Portability:** _(add: Ready / Partial / Locked)_
-
-### THE MARGIN (Economics & Pricing)
-**Will this make money or bleed it?**
-
-- **Gross Margin (current):**
-- **Gross Margin (AI-adjusted):**
-- **Pricing Model:** seat-based / usage-based / outcome-based / hybrid
-- **Pricing Today → Tomorrow:** **Proposed AI pricing:** → **Model:** seat-based / usage-based / outcome-based / hybrid
-- **Total AI COGS / unit:**
-- **Cascading Strategy:** Triage: **Frontier model:**; frontier: **Routing rule:**; ratio ## Pricing Model
-- **Net Margin Shift:** - Margin %: +12.2%
-- **Break-even at:**
-
-### THE CONTRACT (Trust & Reliability)
-**Why users will trust a probabilistic system.**
-
-- **Reliability Target:**
-- **Golden Dataset:** 5 rows, __ adversarial
-- **Confidence UX:** show uncertainty / tiered confidence / human-in-loop trigger
-- **HITL Architecture:**
-- **Failure Mode Coverage:** *What failure mode did your partner find that you missed?*
-
-### THE GUARDRAILS (Governance & Scale)
-**What breaks when this scales, and what compounds.**
-
-- **Compounding System:** | Loop | Input | Output | Compounds? | Status | |------|-------|--------|-----------|--------| | Recursive Learning | The factory information from user | The factory research from internal and external data sources | Y |…
-- **Governance Posture:** AI features in the Factory Risk Intelligence, automated research, mapping into categories, and risk level scoring.
-- **Autonomy Boundaries:** - Researching from external data sources, auto.
-- **Escalation Triggers:** (1) Confidence < 90% on response.
-- **Audit Cadence:** - Weekly, PM reviews the "Edit Category" details and identify if too many human edit is needed and not justifying the ROI (Product Manager).
-- **Shadow AI Audit (user-side):**
-- **Agent Boundaries:** _Not shipping agents this version._
-- **Regulatory Exposure:** EU AI Act, GDPR, SOC 2. Risk tier: high. Controls: Data minimization in prompts · No training on customer PII · SOC 2 log retention controls in place · DPIA on file..
+* **Strengths:** Clear organizational boundaries set for v1 scope—explicitly electing not to ship autonomous agents reduces immediate operational complexity.
+* **Gaps:** Critical technical capabilities remain completely unquantified. Vendor portability status is blank, data pipelines are underspecified, and reliance on external multi-source data ingestion exposes the system to high scraping/API breakage risks without clear ingestion architecture or latency bounds.
+* **Recommendation:** Audit and document all external data source dependencies immediately, establishing concrete fallback mechanisms and standardizing a vendor portability layer to prevent model lock-in.
 
 ---
 
-## EVALUATION DIMENSIONS
+### Impact Analysis, Score: 2/5
 
-Evaluate this strategy against the following dimensions:
-
-### Bet Validation
-- Is the bet backed by user evidence (interviews, usage data, market signals) or primarily by conviction/intuition?
-- What falsifiable hypothesis underlies this bet? What would prove it wrong?
-- How quickly can you validate the core assumption, days, weeks, or months?
-- What is the kill criteria? At what point do you walk away?
-
-### Capability Assessment
-- What technical capabilities need to be developed vs. what exists today?
-- What organizational capabilities (data pipelines, ML ops, domain expertise) are required?
-- Is the capability gap realistic to close in the planned timeframe?
-- What dependencies (third-party models, data sources, regulatory approvals) could block progress?
-
-### Impact Analysis
-- What specific business metric does this bet move (revenue, cost reduction, retention, expansion)?
-- What is the magnitude of impact, incremental improvement or step-change?
-- How does impact compound over time, or does it plateau?
-- What is the opportunity cost of pursuing this bet vs. alternatives?
-
-### Defensibility Check
-- Could a platform (Google, Microsoft, Apple, OpenAI) ship this as a native feature within 12 months?
-- What data flywheel exists that gets stronger with usage?
-- What switching costs exist for users who adopt this?
-- Is there workflow depth (deeply embedded in user processes) or is this a surface-level feature?
-
-### Pricing Alignment
-- Does the pricing model align with how value is delivered (per seat, per task, per outcome)?
-- What happens to unit economics when a power user does 10x the average volume?
-- Can the product sustain its current pricing if inference costs increase 2-3x?
-- Is there a clear willingness-to-pay signal from the target buyer?
-
-### Trust & Reliability
-- Is there a golden dataset that defines "good" output for this specific product?
-- What does the user see when the AI is uncertain, is confidence visible or hidden?
-- Is there a human-in-the-loop path for high-stakes or low-confidence outputs?
-- What is the explicit reliability promise to users, accuracy %, latency, uptime?
-
-### Governance & Scale
-- What breaks when this scales 10x, cost, quality, latency, or trust?
-- Is there a governance framework for model changes, data handling, and compliance?
-- How are corrections and feedback captured and fed back into improvement?
-- Has a user-side shadow AI audit been run, what are users / clients building with AI around the product, and which signals are loud enough to act on?
-
-### Gap Identification
-- Which of the five strategy components (Bet, Moat, Margin, Contract, Guardrails) is weakest or missing?
-- What assumptions are untested?
-- What question would a skeptical board member or CPO ask that you cannot answer today?
-- What is the single biggest risk that could kill this bet in the next 6 months?
+* **Strengths:** A net margin shift target (+12.2%) is identified, demonstrating awareness of overall P&L dynamics.
+* **Gaps:** Fails to define the primary customer business metric moved (e.g., reduction in audit preparation hours, avoidance of supply chain disruption costs, or cycle time reduction). It is unclear whether this delivers incremental efficiency or a step-change value proposition, making opportunity cost impossible to measure.
+* **Recommendation:** Map the product's output directly to a quantifiable customer business metric (e.g., *"Reduces supplier risk vetting time from 15 hours to 30 minutes per factory"*), and quantify baseline customer willingness-to-pay around that metric.
 
 ---
 
-## FORMAT
+### Defensibility Check, Score: 1/5
 
-For each dimension, respond with:
+* **Strengths:** Directly identifies Inspectorio as a core domain threat.
+* **Gaps:** Defensibility is currently a major blind spot. Moat, Data Flywheel, and Vulnerability scores are completely unrated. The recursive learning loop is vague ("factory research from internal and external sources") and lacks a proprietary feedback mechanism that prevents an incumbent or frontier model from replicating this via basic retrieval.
+* **Recommendation:** Focus flywheel construction on proprietary, closed-loop customer data—specifically capturing structured human corrections ("Edit Category" telemetry) to build a proprietary dataset that vertical incumbents cannot copy.
 
-**[Dimension Name]**, Score: X/5
-- Strengths: ...
-- Gaps: ...
-- Recommendation: ...
+---
 
-Then close with:
-- **Overall Score:** X/5
-- **Biggest Risk:** ...
-- **Top 3 Actions:** ...
+### Pricing Alignment, Score: 1/5
+
+* **Strengths:** Outlines a margin expansion target (+12.2%).
+* **Gaps:** Core unit economics are missing—current/adjusted gross margins, total AI COGS per unit, break-even thresholds, frontier routing rules, and pricing models are all left blank. Heavy, unoptimized usage by power users could quickly turn unit economics negative.
+* **Recommendation:** Implement model routing (e.g., triage low-tier categorization via lightweight/local models, routing only complex risk scoring to frontier models) and transition pricing from pure seat-based to a hybrid platform fee + usage tier to cap COGS exposure.
+
+---
+
+### Trust & Reliability, Score: 2/5
+
+* **Strengths:** Concrete escalation rule identified (human-in-the-loop trigger if response confidence drops below 90%).
+* **Gaps:** The evaluation baseline is critically inadequate. A "Golden Dataset" of only 5 rows with no adversarial samples cannot validate a probabilistic system in a high-risk domain (EU AI Act High Risk tier). Reliability targets and UX mechanisms for displaying uncertainty remain undefined.
+* **Recommendation:** Expand the Golden Dataset to at least 100+ expert-annotated factory risk scenarios, including at least 25 adversarial edge cases, before running production evaluation.
+
+---
+
+### Governance & Scale, Score: 3/5
+
+* **Strengths:** Strong proactive stance on regulatory compliance (EU AI Act High-Risk tier, GDPR, SOC 2) with defined controls like prompt data minimization, PII isolation, and DPIA filing. Established a weekly PM audit cadence on human edits.
+* **Gaps:** Shadow AI audit, user-side instrumentation, and system behavior under 10x scale remain unmapped. Relying solely on manual weekly PM reviews will fail as volume scales.
+* **Recommendation:** Automate the auditing pipeline by logging all confidence scores and human edits directly into a dashboard that flags systematic misclassifications automatically when edit rates exceed 15%.
+
+---
+
+### Gap Identification, Score: 2/5
+
+* **Strengths:** Honest acknowledgment of regulatory exposure and high-risk domain classification.
+* **Gaps:** The strategy contains significant blank fields in critical financial, defensibility, and operational metrics. Core assumptions around customer WTP, unit margin defense, and moat viability remain unvalidated.
+* **Recommendation:** Complete a rigorous baseline audit across all strategy inputs—filling in missing data flywheel metrics, gross margin formulas, and unit COGS estimates before committing further engineering bandwidth.
+
+---
+
+### Strategy Overview
+
+* **Overall Score:** 1.9 / 5
+* **Biggest Risk:** **Unit Economic & Moat Collapse.** Launching an "Oracle" archetype in a high-risk domain without validated unit COGS, pricing caps, or a proprietary data flywheel leaves the product vulnerable to margin erosion from LLM inference costs and immediate feature replication by domain incumbents like Inspectorio.
+* **Top 3 Actions:**
+1. **Build a Robust Golden Dataset:** Expand the golden dataset from 5 rows to 100+ adversarial cases to set a reliable baseline for the 90% confidence trigger.
+2. **Model Unit Economics & Routing:** Define unit COGS per query, establish model tiering (small model for triage/classification, frontier model for complex scoring), and select a hybrid pricing model to protect gross margins.
+3. **Formalize a Proprietary Data Flywheel:** Systematically capture human edit telemetry (category overrides, risk score edits) as a proprietary tuning dataset to create defensibility against incumbents.
