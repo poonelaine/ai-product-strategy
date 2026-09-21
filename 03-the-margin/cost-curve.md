@@ -1,13 +1,11 @@
 # Leader, Filler & Killer
 
-**Leader:** Automatic research across external and internal data, and automatic mapping into company policies.
-_____
-**Filler:** Rating Risk Score of each piece of information from the external and internal data, suggests an overall Risk Score of a factory
-_____
-**Killer:** Suggesting "Onboard Risk Action"
-_____
+- **Leader:** Automatic research across external and internal data, and automatic mapping into company policies.
+- **Filler:** Rating Risk Score of each piece of information from the external and internal data, suggests an overall Risk Score of a factory
+- **Killer:** Suggesting "Onboard Risk Action"
+
 **Killer usage %:** 90% - User does not necessarily follow the suggested Action, hence not 100%
-_____
+
 **Bundle or add-on:** Bundle
 _____
 
