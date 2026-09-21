@@ -1,31 +1,45 @@
+# Leader, Filler & Killer
+
+**Leader:** Automatic research across external and internal data, and automatic mapping into company policies.
+_____
+**Filler:** Rating Risk Score of each piece of information from the external and internal data, suggests an overall Risk Score of a factory
+_____
+**Killer:** Suggesting "Onboard Risk Action"
+_____
+**Killer usage %:** 90% - User does not necessarily follow the suggested Action, hence not 100%
+_____
+**Bundle or add-on:** Bundle
+_____
+
+
 # Margin Calculator, Module 3
 
 ## Inputs
 - Avg requests/user/month: 20
-- Blended cost/request: $0.04
+- Blended cost/request: $0.01675
 - Revenue/user/month: $10
-- Non-AI COGS/user/month: $8
+- Non-AI COGS/user/month: $5
 
 ## Current Margin
-- AI COGS/user: $0.80
-- Total COGS/user: $8.80
-- Gross margin: 12.0% ($1.20/user)
+- AI COGS/user: $0.34
+- Total COGS/user: $5.33
+- Gross margin: 46.7% ($4.67/user)
 
 ## Stress Test
 | Scenario | AI COGS | Margin |
 |----------|---------|--------|
-| 3x Cost  | $2.40 | -4.0% ($-0.40) |
-| 2x Usage | $1.60 | 4.0% ($0.40) |
-##
+| 3x Cost  | $1.01 | 40.0% ($4.00) |
+| 2x Usage | $0.67 | 43.3% ($4.33) |
+
 
 # Build Your Cost Curve
 
 ## Features -> Tiers -> blended COGS
 | Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted | Why the feature? |
 |----------|---------|--------|----------|---------|--------|--------|
-| Researching across 10+ internal and external data for a factory  | Simple | Small | $0.015 | 85% | $0.01275 |--------|
-| Mapping the research results into company policy categories | Medium | Mid | $0.02 | 10% | $0.002 |--------|
-| Rating a Risk Score and recommend action to onboard | Complex | Frontier | $0.04 | 5% | $0.002 |--------|
+| Researching across 10+ internal and external data for a factory  | Simple | Small | $0.015 | 85% | $0.01275 | It is the selling point that attracts user to start using the product by promoting time-saving. |
+| Mapping the research results into company policy categories | Medium | Mid | $0.02 | 10% | $0.002 |It is the distinct selling point that user would experience "intelligence" from an AI-native product, which is new and like-no-other legacy product|
+| Rating a Risk Score and recommend action to onboard | Complex | Frontier | $0.04 | 5% | $0.002 |It is the critical selling point that the product can be a part of their decision making workflow, which is no longer a nice-to-have reference|
 | Blended | | | | 100% | $0.01675 | |
 ##
 
@@ -40,44 +54,7 @@
 - Estimated units/user/month: 20
 - Implied revenue/user/month: $10.00
 
-## Decision Note
-Why this pricing structure fits the buyer and the value delivered: ·
-##
 
-# Cost Curve & Pricing Strategy
-
-## Cost Model
-
-| Cost Category | Per-User/Month | Notes |
-|--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
-
-## Cascading Strategy
-<!-- Cheap model → frontier model routing logic -->
-
-**Triage model:**
-**Frontier model:**
-**Routing rule:**
-**Expected cascade ratio:**
-
-## Pricing Model
-
-**Current pricing:**
-**Proposed AI pricing:**
-**Model:** seat-based / usage-based / outcome-based / hybrid
-
-## Stress Tests
-
-| Scenario | Impact on Margin | Response |
-|----------|-----------------|----------|
-| Inference costs 3x | | |
-| Heaviest segment doubles | | |
-| Model provider raises prices 50% | | |
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
@@ -86,7 +63,7 @@ Why this pricing structure fits the buyer and the value delivered: ·
 - Revenue : $10 base / 12 months = $0.833
 - COGS: $8 / 12 months = $0.66
 - Gross Margin = 20.8% (+ $0.173)
-- 
+  
 **After (AI-enabled):** 
 - Revenue : $10 base + $0 x Outcome = $10
 - COGS: $0.01675 x 20 times x 20 Users = $6.7
