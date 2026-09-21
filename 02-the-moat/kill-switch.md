@@ -1,19 +1,16 @@
-# Kill Switch Audit
+# Kill Switch Audit, Module 2
 
-## Vendor Dependency Assessment
+**CURRENT SETUP**
+- Primary provider: Other
+- Integration depth: Direct API calls
+- Time to switch today: 3 months
 
-| Dimension | Current State | Risk Level | 48-Hour Action |
-|-----------|--------------|------------|---------------|
-| **Provider** | | H / M / L | |
-| **Abstraction** | | H / M / L | |
-| **Routing** | | H / M / L | |
-| **Eval** | | H / M / L | |
+**STRESS TEST**
+- If pricing doubles: Our operational cost will be doubled.
+- If ToS restricts use case: Operation impacted, but we have contract review every year, the ToS could not be changed without at least 3 months reviewing period.
+- Risk level (from integration): High risk
 
-## Portability Score
-<!-- Ready / Partial / Locked -->
-
-## If [primary vendor] doubles pricing tomorrow:
-<!-- What's your 48-hour response? -->
-
-## If [primary vendor] ships a competing product:
-<!-- What's defensible that they can't replicate? -->
+**THREE ACTIONS**
+- This week: Document all API calls and endpoints that currently we are consuming.
+- This month: Start negotiation of another service provider with the same ToS
+- This quarter: Plan a provider change management roadmap
