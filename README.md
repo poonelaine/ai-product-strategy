@@ -38,9 +38,9 @@
 **Why this won't get copied in 6 months.**
 
 - **Data Flywheel Score:**
-- **Weakest Loop:** **Fix for weakest loop:**
+- **Weakest Loop:** Preferences Loop (1/5)
 - **Top Encroachment Threat:** Inspectorio
-- **Encroachment Defense:** ### Data Flywheel Scorer, Module 2
+- **Encroachment Defense:** Not to fix. It is intentional to build one standardized assessment level, so that we can ware the same lense to assess different factories without human blind spot or bias.
 - **Vendor Portability:** _(add: Ready / Partial / Locked)_
 
 → Details: [`02-the-moat/`](02-the-moat/)
@@ -53,10 +53,10 @@
 
 - **Gross Margin (current):**
 - **Gross Margin (AI-adjusted):**
-- **Pricing Model:** seat-based / usage-based / outcome-based / hybrid
-- **Pricing Today → Tomorrow:** **Proposed AI pricing:** → **Model:** seat-based / usage-based / outcome-based / hybrid
+- **Pricing Model:**
+- **Pricing Today → Tomorrow:**
 - **Total AI COGS / unit:**
-- **Cascading Strategy:** Triage: **Frontier model:**; frontier: **Routing rule:**; ratio ## Pricing Model
+- **Cascading Strategy:**
 - **Net Margin Shift:** - Margin %: +12.2%
 - **Break-even at:**
 
@@ -68,11 +68,11 @@
 
 **Why users will trust a probabilistic system.**
 
-- **Reliability Target:**
-- **Golden Dataset:** 5 rows, __ adversarial
-- **Confidence UX:** show uncertainty / tiered confidence / human-in-loop trigger
-- **HITL Architecture:**
-- **Failure Mode Coverage:** *What failure mode did your partner find that you missed?*
+- **Reliability Target:** 90%
+- **Golden Dataset:**
+- **Confidence UX:** Tiered Confidence to show the source and allow adjustment of risk score
+- **HITL Architecture:** **Trigger:** Confidence <60% OR safety rubric flag fires on a customer-facing output
+- **Failure Mode Coverage:**
 
 → Details: [`04-the-contract/`](04-the-contract/)
 
@@ -82,13 +82,13 @@
 
 **What breaks when this scales, and what compounds.**
 
-- **Compounding System:** | Loop | Input | Output | Compounds? | Status | |------|-------|--------|-----------|--------| | Recursive Learning | The factory information from user | The factory research from internal and external data sources | Y |…
-- **Governance Posture:** AI features in the Factory Risk Intelligence, automated research, mapping into categories, and risk level scoring.
-- **Autonomy Boundaries:** - Researching from external data sources, auto.
-- **Escalation Triggers:** (1) Confidence < 90% on response.
-- **Audit Cadence:** - Weekly, PM reviews the "Edit Category" details and identify if too many human edit is needed and not justifying the ROI (Product Manager).
+- **Compounding System:**
+- **Governance Posture:** AI features in the Factory Risk Intelligence, automated research, mapping into categories, and risk level scoring.…
+- **Autonomy Boundaries:** Researching from external data sources, auto. Researching from internal factory audit history, auto. Categorizing evidence according to company policy, auto. Rating a risk score according to the evidence, auto.…
+- **Escalation Triggers:** (1) Confidence < 90% on response. (2) User flagged thumbs down (3) User edit the mapping more than one evidence per policy category (4) User edit the action item from Approve to Decline (5) More than three searches for t…
+- **Audit Cadence:** Weekly, PM reviews the "Edit Category" details and identify if too many human edit is needed and not justifying the ROI (Product Manager).…
 - **Shadow AI Audit (user-side):**
-- **Agent Boundaries:** _Not shipping agents this version._
+- **Agent Boundaries:** - Agent searches RS team reference risk data - Agent consolidates data and categorizes into signals - Agent to map signal to company policy and explain “Why it matters” - Agent rates Risk Score of each information source specific to a facto…
 - **Regulatory Exposure:** EU AI Act, GDPR, SOC 2. Risk tier: high. Controls: Data minimization in prompts · No training on customer PII · SOC 2 log retention controls in place · DPIA on file..
 
 → Details: [`05-the-guardrails/`](05-the-guardrails/)
@@ -99,11 +99,11 @@
 
 **How you get this funded, shipped, and adopted.**
 
-- **Horizon 1 (Now):**
-- **Horizon 2 (Next):**
-- **Horizon 3 (Bet):**
-- **Board Narrative:** **The case:**
-- **Ask:** ## M1 Baseline vs. Now
+- **Horizon 1 (Now):** **1. Agent searches RS team reference risk data** · **2. Agent consolidates data and categorizes into signals** · **3. Agent to map signal to company policy and explain “Why it matters”** · **4. Human-in-the-loop: RS team reviews feedback and changes the mapping if disagree**
+- **Horizon 2 (Next):** **5. Agent rates Risk Score of each information source specific to a factory** · **6. Agent suggests an overall Risk Score of a factory** · **7. Agent suggests action items**
+- **Horizon 3 (Bet):** **8. RS Team decides “Onboard Risk Action” according to the Risk Score**
+- **Board Narrative:** By automating factory risk research and policy compliance for our Risk Strategy team, Factory Risk Intelligence cuts manual risk assessment cycles while expanding our portfolio cover, locking in a +12.2% net margin shift before competitors like Inspectorio can capture our custome…
+- **Ask:** We are asking for 2 Engineers and 1 Product Manager for 1 Year to deliver Horizons 1 and 2 of Factory Risk Intelligence; to fund this, we will pause generic task management backlog items (Initiatives 9 and 10) and defer secondary workflow i…
 - **Key Strategic Change:**
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
